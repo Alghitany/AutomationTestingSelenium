@@ -24,3 +24,38 @@
   <li><strong>License</strong></li>
 </ul>
 <hr>
+<h3><strong>1. Project Overview</strong></h3>
+<p>This section describes the project as an automation framework built for an e-commerce application using:</p>
+<ul>
+  <li>Selenium for UI testing.</li><li>Maven for dependency management.</li>
+  <li>Page Object Model (POM) for maintainability.</li>
+  <li>Behavior-Driven Development (BDD) with Cucumber.</li>
+</ul>
+<hr>
+<h3><strong>2. Setup and Configuration</strong></h3>
+<h4><strong>Maven Project Creation</strong></h4>
+<ul>
+  <li>Includes instructions on setting up Maven and Java environment variables (<code>JAVA_HOME</code>, <code>MAVEN_HOME</code>, etc.).</li>
+  <li>Verifications using terminal commands: <code>java -version</code> and <code>mvn -v</code>.</li>
+  <li>Mentions screenshots:<ul><li>Environment variables.</li>
+    <li>Maven external libraries in IntelliJ IDEA.</li>
+    <li>Maven project settings in IntelliJ IDEA.</li>
+  </ul>
+  </li>
+</ul>
+![EnvironmentVariables](images/EnvironmentVariables.jpg)
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
