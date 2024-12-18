@@ -15,11 +15,14 @@ public class RegisterSteps {
     RegisterPage registrationPage;
 
     @Given("User go to register page")
-    public void user_go_to_register_page() {
+    public void user_go_to_register_page() throws InterruptedException {
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
+        Thread.sleep(2000);
         driver.navigate().to("https://demo.nopcommerce.com/register?returnUrl=%2F");
+        Thread.sleep(1000);
         registrationPage = new RegisterPage(driver);
+        Thread.sleep(1000);
     }
 
     @When("User select the type of gender")
@@ -40,7 +43,7 @@ public class RegisterSteps {
 
     @When("User enter the email")
     public void user_enter_the_email() {
-        registrationPage.enterEmail("johndoe@test3.com");
+        registrationPage.enterEmail("johndoe@test5.com");
     }
 
     @When("User enter and confirm the password")
