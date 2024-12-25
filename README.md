@@ -38,12 +38,12 @@
   <li>Includes instructions on setting up Maven and Java environment variables (<code>JAVA_HOME</code>, <code>MAVEN_HOME</code>, etc.).</li>
   <li>Verifications using terminal commands: <code>java -version</code> and <code>mvn -v</code>.</li>
   <li>Mentions screenshots:<ul><li>Environment variables.</li>
-    <li>Maven external libraries in IntelliJ IDEA.</li>
+    <img src="images/EnvironmentVariables.PNG" alt="Environment Variables" width="500" height="300">
     <li>Maven project settings in IntelliJ IDEA.</li>
+    <img src="images/Maven Version.PNG" alt="Maven Version" width="500" height="300">
   </ul>
   </li>
 </ul>
-<img src="images/EnvironmentVariables.PNG" alt="Environment Variables" width="500" height="300">
 <hr>
 <h4><strong>Dependencies</strong></h4>
 <ul>
