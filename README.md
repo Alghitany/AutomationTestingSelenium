@@ -62,12 +62,13 @@
   <li>Explains directory creation (<code>src/test/java</code>, <code>src/test/resources</code>).</li>
   <li>Lists required plugins installed in IntelliJ IDEA (e.g., Cucumber for Java).</li>
   <li>Includes a screenshot of installed IntelliJ plugins.</li>
+  <img src="images/Plugins.jpg" alt="Plugins" width="500" height="300">
 </ul>
 <hr>
 <h3><strong>3. Test Scenarios and Automation</strong></h3>
 <h4><strong>Test Scenarios</strong></h4>
 <ul>
-  <li>Feature files created for functionalities in <code>src/test/resources</code>.</li>
+  <li>Feature files created for functionalities in <code>src/test/resources/Features</code>.</li>
   <li>Each feature file includes test scenarios for the e-commerce app.</li>
 </ul>
 <h4><strong>Automated Steps</strong></h4>
@@ -89,10 +90,10 @@
 </ul>
 <hr>
 <h3><strong>5. Screenshots and Proof</strong></h3>
-<p>Screenshots listed in a <code>screenshots/</code> directory:</p>
+<p>Screenshots listed in a <code>images/</code> directory:</p>
 <ul>
   <li>Environment variables.</li>
-  <li>Maven external libraries.</li>
+  <li>JAVA Version.</li>
   <li>Maven project settings.</li>
   <li>Dependency versions from Maven repository.</li>
   <li>IntelliJ plugins.</li>
@@ -101,7 +102,7 @@
 <h3><strong>6. How to Run the Project</strong></h3>
 <p>Steps to execute:</p>
 <ol>
-  <li>Clone the repository using <code>git clone https://github.com/your-repo-name.git</code>.</li>
+  <li>Clone the repository using <code>git clone https://github.com/AutomationTestingSelenium.git</code>.</li>
   <li>Open the project in IntelliJ IDEA.</li><li>Run the tests using <code>mvn test</code>.</li>
   <li>View the reports in the <code>target</code> directory.</li>
 </ol>
