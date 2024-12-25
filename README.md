@@ -40,7 +40,9 @@
   <li>Mentions screenshots:<ul><li>Environment variables.</li>
     <img src="images/EnvironmentVariables.PNG" alt="Environment Variables" width="500" height="300">
     <li>Maven project settings in IntelliJ IDEA.</li>
-    <img src="images/Maven Version.PNG" alt="Maven Version" width="500" height="300">
+    <img src="images/MavenVersion.jpg" alt="Maven Version" width="500" height="300">
+     <li>JAVA Version in IntelliJ IDEA.</li>
+    <img src="images/JavaVersion.jpg" alt="JAVA Version" width="500" height="300">
   </ul>
   </li>
 </ul>
