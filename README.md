@@ -21,7 +21,6 @@
   <li><strong>Execution and Reporting</strong></li>
   <li><strong>Screenshots and Proof</strong></li>
   <li><strong>How to Run the Project</strong></li>
-  <li><strong>License</strong></li>
 </ul>
 <hr>
 <h3><strong>1. Project Overview</strong></h3>
@@ -106,9 +105,6 @@
   <li>Open the project in IntelliJ IDEA.</li><li>Run the tests using <code>mvn test</code>.</li>
   <li>View the reports in the <code>target</code> directory.</li>
 </ol>
-<hr>
-<h3><strong>7. License</strong></h3>
-<p>Mentions the project is licensed under MIT License.</p>
 <hr>
 <h3><strong>Preview Example</strong></h3>
 <p>If rendered in a browser, the page will have:</p>
