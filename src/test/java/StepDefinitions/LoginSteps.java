@@ -45,5 +45,10 @@ public class LoginSteps {
         Assert.assertTrue("Error message should be displayed", errorMessage.contains("Login was unsuccessful"));
         driver.quit();
     }
+    @After
+    public void closeBrowser() throws InterruptedException {
+        Thread.sleep(3000);
+        driver.quit();
+    }
 
 }

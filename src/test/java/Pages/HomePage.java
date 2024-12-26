@@ -11,7 +11,7 @@ public class HomePage {
     }
 
     public ProductPage navigateToProductPage() {
-        driver.findElement(By.linkText("Product")).click();
+        driver.findElement(By.cssSelector("div[data-productid=\"1\"]>div[class=\"details\"]>div[class=\"add-info\"]>div[class=\"buttons\"]>button[class=\"button-2 product-box-add-to-cart-button\"]")).click();
         return new ProductPage(driver);  // Returning the next page object
     }
 }

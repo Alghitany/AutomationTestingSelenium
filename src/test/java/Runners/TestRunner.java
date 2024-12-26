@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/main/resources/Features/Register.feature",  // Path to feature files
+        features = "src/main/resources/Features/Login.feature",  // Path to feature files
         glue = {"StepDefinitions"},               // Path to step definitions
         plugin = {
                 "pretty",                             // Standard output

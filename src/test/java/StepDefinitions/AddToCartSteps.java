@@ -3,6 +3,8 @@ package StepDefinitions;
 import Pages.HomePage;
 import Pages.ProductPage;
 import Pages.ShoppingCartPage;
+import io.cucumber.java.After;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -23,19 +25,19 @@ public class AddToCartSteps {
         homePage = new HomePage(driver);  // Initialize the page objects
     }
 
-    @When("user navigate to product page")
-    public void user_navigate_to_product_page() {
+    @When("user click on the add to cart button")
+    public void user_click_on_the_add_to_cart_button() {
         // Navigate to the product page
         productPage = homePage.navigateToProductPage();
     }
 
-    @When("user choose the specified features of the product")
+    @And("choose the specified features of the product")
     public void user_choose_the_specified_features_of_the_product() {
         // Choose the product features (e.g., size, color)
         productPage.selectProductFeatures();
     }
 
-    @When("user confirm adding to shopping cart")
+    @And("confirm adding to shopping cart")
     public void user_confirm_adding_to_shopping_cart() {
         // Add the product to the cart and navigate to the shopping cart page
         shoppingCartPage = productPage.addToCart();
@@ -45,5 +47,11 @@ public class AddToCartSteps {
     public void the_product_added_successfully_to_shopping_cart() {
         // Verify that the product was successfully added to the cart
         Assert.assertTrue(shoppingCartPage.isProductAdded());
+    }
+
+    @After
+    public void closeBrowser() throws InterruptedException {
+        Thread.sleep(3000);
+        driver.quit();
     }
 }
