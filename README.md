@@ -1,4 +1,7 @@
 <h3>
+  <strong>⚠️ Warning: The Website has some CAPTCHA problems but locators suppose to work correctly.</strong>
+</h3>
+<h3>
   <strong>Selenium Maven Project for E-commerce App Testing</strong>
 </h3>
 <ul>
